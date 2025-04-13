@@ -1,7 +1,9 @@
-package MultiThreading;
+package multithreading;
+import java.lang.Thread;
 class Mythread extends Thread{
     public void run(){
-        System.out.println("Hello from thread");
+        System.out.println("...................Hello from thread...............");
+        System.out.println("Name of thread::"+ Thread.currentThread().getName());
     }
 }
 
